@@ -1,0 +1,30 @@
+.top{
+    width: 80%;
+    margin-left: 20%;
+}
+
+.left{
+    display: block;
+    width: 70%;float: left;
+}
+
+.img1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+}
+.mid{
+    float: left;
+    margin-left: 3%; 
+    line-height: 20%;
+}
+.right{
+    float: left;
+    width: 30%;
+    margin-left: -30%;
+}
+.img2{
+    width: 350px;
+    height: 300px;
+}
