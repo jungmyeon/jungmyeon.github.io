@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+
+.signup{
+    width: 80%;
+    max-width: 800px;
+    min-width: 500px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    font-size: 20px;
+}
+label{
+    font-size: 15px;
+}
+
+.signup input{
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+
+.div_sub{
+    text-align: center;
+}
+
+.text_input{
+    display: inline-block;
+    width: 200px;
+}
+
+.div_chk{
+    text-align: center
+}
+
+.signup input[type=submit]{
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 100px;
+}
