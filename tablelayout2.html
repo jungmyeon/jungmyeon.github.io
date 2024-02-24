@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        div{
+            width: 95%;
+            margin: auto;
+        }
+        h2{
+            margin-left: 10 px;
+        }
+
+        hr{
+            border-style: double;
+        }
+        .table{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            padding: 20px;
+            text-align: center;
+        }
+        .table td{
+            height: 25px;
+            font-size: 10px;
+        }
+        .table img{
+            width: 80px;
+            height: 80px;
+        }
+        .tr1{
+            text-align: left;
+            border: 1px solid black;
+        }
+        .a1{
+            border: 0.5px solid blue;
+            border-radius: 5px;
+            font-size: 7px;
+            padding: 2px;
+            color: blue;
+        }
+        .a2{
+            font-size: 7px;
+        }
+        .td1{
+            text-align: left; 
+            vertical-align: top;
+            width: 10px;
+            border-bottom: 1px solid black;
+        }
+        .td2{
+            text-align: left;
+            width: 90px;
+            border-bottom: 1px solid black;
+        }
+        .td3{
+            text-align: left;
+            width: 80px;
+            border-bottom: 1px solid black;
+        }
+        .td4 a{
+            font-size: 10px;
+        }
+        .td4 div{
+            display:inline-block;
+            width: 70px;
+            height: 30px;
+            position: relative;
+            top: 5px;
+        }
+        input{
+            width: 30px;
+            height: 10px;
+            margin: 5px;
+        }
+        .line1{
+            display: block;
+            border-right: 1px solid gray;
+            position: relative;
+            right: 53px;
+        }
+        .underline{
+            border: 1px solid black;
+        }
+        .tr2{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>장바구니</h2>
+        <hr>
+        <table class="table">
+            <tr class="tr1">
+                <td colspan="6">
+                    <a class="a1">당일배송</a> <a class="a2">오늘 15:00부터 배송 가능</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="td1"><input type="checkbox"></td>
+                <td class="td2"><img src="./images/bread.jpg"></td>
+                <td class="td3"><a>고소한 식빵</a></td>
+                <td class="underline"><a>단일상품</a>
+                    <br><a><input type="number" ></input> 수량</a></td>
+                <td class="underline">0원 할인</td>
+                <td class="underline">4000원</td>
+            </tr>
+            <tr>
+                <td class="td1"><input type="checkbox"></td>
+                <td class="td2"><img src="./images/jam.jpg"></td>
+                <td class="td3">딸기잼</td>
+                <td class="underline"><a>단일상품</a>
+                    <br><a><input type="number" ></input> 수량</a></td></td>
+                <td class="underline">0원 할인</td>
+                <td class="underline">8000원</td>
+            </tr>
+            <tr>
+                <td class="td1"><input type="checkbox"></td>
+                <td class="td2"><img src="./images/orange.jpg"></td>
+                <td class="td3">신선한 오렌지</td>
+                <td class="underline"><a>단일상품</a>
+                    <br><a><input type="number" ></input> 수량</a></td></td>
+                <td class="underline">0원 할인</td>
+                <td class="underline">15000원</td>
+            </tr>
+            <tr class="tr2">
+                <td colspan="6" class="td4">
+                    <div>
+                        <a>선택상품금액</a>
+                        <br>
+                        <a>27000원</a>
+                    </div>
+                    <div style="position: relative; top: -5px;"><a>+</a></div>
+                    <div>
+                        <a>총배송비</a>
+                        <br>
+                        <a>3000원</a>
+                    </div>
+                    <div class="line1"></div>
+                    <div>
+                        <a>주문금액</a>
+                        <br>
+                        <a style="color: green; font-weight: bolder;">30000원</a>
+                    </div>
+                    <div style="position: relative; top: -3px; ">
+                        <button type="button" style="background-color: yellow; border: 1px solid yellow;
+                        border-radius: 5px; width: 90px;">주문하기</button></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
