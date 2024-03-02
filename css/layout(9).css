@@ -1,0 +1,79 @@
+div{
+    border: 1px solid none;
+    background-color: beige;
+    width: 1400px;
+}
+
+
+
+
+li {
+    display: inline-block;
+    padding:25px 25px 40px 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*a:hover{
+    text-decoration: underline;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    padding: 20px 20px 40px 20px;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus{
+    padding: 20px 20px 40px 20px;
+}*/
+
+.back-image{
+    background-image: url(../images/coffee.jpg);
+    width: 1400px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+
+.image-title1{
+    position: relative;
+    left: 32%;
+    top: 33%;
+    font-size: 30px;
+}
+
+.image-title2{
+    position: relative;
+    left:30%;
+    top: 29%;
+    font-size: 40px;
+}
+
+.image-content{
+    position: relative;
+    left: 32%;
+    top: 25%;
+    font-size: 30px;
+
+}
+
+.image-button{
+    position: relative;
+    left: 22.5%;
+    top: 36%;
+    border-radius: 5px;
+    border-color: black;
+    background-color: unset;
+    font-size: 15px;
+    padding: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+.image-button:active{
+    transform: scale(0.9);
+}
+
